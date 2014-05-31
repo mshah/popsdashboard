@@ -1,0 +1,41 @@
+
+<html>
+<head>
+<meta http-equiv="refresh" content="3600" >
+<!-- 1920px by 1080px is the size this is designed for, the sizes of these layout frames have been hardcoded to display this at 100% with no scrolling needed -->
+	<style>
+		html{
+			overflow-y: hidden;
+			overflow-x: hidden;
+		}
+		#outerdiv{
+			width:1910px;
+			height:850px;
+			overflow:hidden;
+			position:relative;
+		}
+
+		#Bottom{
+			position:absolute;
+			top:-50px;
+			left:-200px;
+			width:2110px;
+			height:850px;
+		}
+	</style>
+</head>
+<body>
+<script type="text/javascript" src="./rotateDashboards.js"></script>
+<table border="0">
+  <col width="1920">
+  	<tr>
+		<iframe id="Top" width="1910px" height="300px" frameborder="0" scrolling="no" src="./Countdowntimers/CountDownTimer.html"></iframe>
+	</tr>
+	<tr>
+	<div id="outerdiv">
+		<iframe height="850px" src="http://jira.navis.com/secure/Dashboard.jspa?selectPageId=18580" id="Bottom" scrolling="no"></iframe>
+	</div>	
+	</tr>
+</table>
+</body>
+</html>

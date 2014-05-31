@@ -1,0 +1,49 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+<script type="text/javascript" src="countdown.js"></script>
+    <style>
+      .event {
+        font-family: 'Lato', sans-serif;
+      }
+	.numbers{
+		font-family: 'Lato', sans-serif;
+	}
+	.title{
+		font-family: 'Lato', serif;
+	}
+	.date{
+		font-family: 'Lato', serif;
+	}
+    </style>
+
+</head>
+
+<body onload="createPanel(1)"  style="background-color: #E2E2E2;">
+<table id="table" border="0">
+	<tr>
+        <td align="center" colspan="4" class="numbers" id="count2" style="padding: 0px 0 0 0; "/>
+    </tr>
+    <tr>
+        <td align="center" colspan="4" class="event" id="event" style="padding: 5px 0 0 0; "/>
+    </tr>
+
+    <tr id="spacer1">
+        <td align="center" ><div class="numbers" id="dday" style="padding: 0px 24px 0 0; "></div></td>
+        <td align="center" ><div class="numbers" id="dhour"></div></td>
+        <td align="center" ><div class="numbers" id="dmin"></div></td>
+        <td align="center" ><div class="numbers" id="dsec"></div></td>
+    </tr>
+    <tr id="spacer2">
+        <td align="center" ><div class="title" id="days">DAYS</div></td>
+        <td align="center" ><div class="title" id="hours">HRS</div></td>
+        <td align="center" ><div class="title" id="minutes">MINS</div></td>
+        <td align="center" ><div class="title" id="seconds">SECS</div></td>
+    </tr>
+	<tr>
+        <td align="center" colspan="4" class="date" id="date" style="padding: 5px 0 0 0; "/>
+    </tr>	
+</table>
+</body>
+</html>

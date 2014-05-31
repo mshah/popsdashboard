@@ -1,0 +1,43 @@
+.numbers {
+    padding: 0px 8px 0px 8px;
+    width: 40px;
+    text-align: center;      
+    font-size: 45px;
+    font-weight: bold;    /* options are normal, bold, bolder, lighter */
+    font-style: normal;   /* options are normal or italic */
+    color: #F40B0B;       /* change color using the hexadecimal color codes for HTML */
+}
+.title {    /* the styles below will affect the title under the numbers, i.e., “Days”, “Hours”, etc. */
+    border-style: none;
+    padding: 0px 8px 0px 5px;
+    width: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;    /* options are normal, bold, bolder, lighter */
+    color: #98A093;       /* change color using the hexadecimal color codes for HTML */
+}
+.date {  
+    border-style: none;
+    padding: 0px 5px 0px 5px;
+    width: 300px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;    /* options are normal, bold, bolder, lighter */
+    color: #22B14C;       /* change color using the hexadecimal color codes for HTML */
+}
+.event {   
+    border-style: none;
+    width: 40px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bolder;    /* options are normal, bold, bolder, lighter */
+    color: #336699;       /* change color using the hexadecimal color codes for HTML */
+}
+
+#table {
+    border-width: 0px;
+    border-color: #E2E2E2;       /* change color using the hexadecimal color codes for HTML */
+    background-color: #E2E2E2;   /* change color using the hexadecimal color codes for HTML */
+    margin: 0px auto;
+    position: relative;   /* leave as "relative" to keep timer centered on your page, or change to "absolute" then change the values of the "top" and "left" properties to position the timer */
+}
